@@ -1,0 +1,71 @@
+.mqInfo {
+  padding-left: 25px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.mqInfo > span {
+  padding-left: 0;
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 0.8em;
+}
+
+.mqInfo > span::before {
+  content: attr(title) ": ";
+}
+
+.dbox-donation-button {
+  background: #41a2d8 url(https://donorbox.org/images/red_logo.png) no-repeat 37px;
+  color: #fff;
+  text-decoration: none;
+  font-family: Verdana, sans-serif;
+  font-size: 16px;
+  padding: 15px 38px;
+  padding-left: 75px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  box-shadow: 0 1px 0 0 #1f5a89;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+  border-width: 0px;
+}
+
+.small-logo {
+  width: 83px;
+  float: left;
+  border-width: 0px;
+  position: relative;
+  bottom: -1px;
+}
+
+.dbox-container {
+  padding-left: 32px;
+}
+
+.wrapper {
+  background-color: black;
+  padding-bottom: 1px;
+  border-bottom: #41a2d8 5px solid;
+  overflow: auto;
+  width: 100%;
+  display: flex;
+}
+
+.lettering {
+  height: 75px;
+}
+
+.lettering-container {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+}
+
+.two-thing {
+  display: flex;
+  align-items: flex-start;
+  align-items: center;
+}

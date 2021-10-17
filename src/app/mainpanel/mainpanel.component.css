@@ -1,0 +1,43 @@
+.top-text {
+  font-family: "Roboto Condensed", sans-serif;
+  line-height: 1.4em;
+  font-size: 20.4px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  letter-spacing: 0.07em;
+  color: #888888;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  width: 700px;
+  text-align: left;
+}
+
+.image {
+  height: 700px;
+  border-radius: 12px;
+  position:relative;
+  top:0;
+  left:0;
+}
+
+.image:hover{
+  filter: brightness(50%);
+}
+
+.flapImage {
+   margin:0 auto;
+   text-align:center;
+   top:0;
+   left:0;
+   background-color:white
+}
+
+.play {
+  height: 150px;
+  position:relative;
+  top:-450px;
+}
+
+.text-container {
+}

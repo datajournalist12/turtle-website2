@@ -1,0 +1,14 @@
+.side-panel {
+  float: right;
+  width: 33%;
+}
+
+.panels {
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.main-panel {
+  float: left;
+  width: 67%;
+}
