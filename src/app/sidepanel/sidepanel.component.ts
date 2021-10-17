@@ -20,12 +20,12 @@ export class SidepanelComponent implements OnInit {
                   image: "./../../assets/ring.jpeg",
                   header: "",
                   subhead: "A Nationwide Problem",
-                  description: "Most people have never heard of turtle races, but they are common events at Midwestern fairs and festivals. Learn why turtle scientists are expressing concern"
+                  description: "Never heard of turtle races? They are common events at Midwestern fairs and festivals. Learn why turtle scientists are expressing concern"
                 },
                 {
                   image: "./../../assets/race.jpg",
                   header: "",
-                  subhead: "Reforming Races: The Fix?",
+                  subhead: "Reforming Races",
                   description: "By adhering to guidlines we have developed turtle race organizers can actually become partners in conservation. Find out how."
                 },
                 {

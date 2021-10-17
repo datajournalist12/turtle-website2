@@ -1,5 +1,5 @@
 <div class="top-text">LEARN MORE</div>
-<ng-container *ngFor="let datum of data">
+<ng-container *ngFor="let datum of data, let isLast = last">
   <div class="li-container">
     <div class="img-container">
       <img src="{{datum.image}}" />
@@ -13,4 +13,5 @@
       </p>
     </span>
   </div>
+  <div class="last" *ngIf="isLast"></div>
 </ng-container>

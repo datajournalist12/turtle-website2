@@ -9,12 +9,11 @@
   color: #888888;
   padding-top: 50px;
   padding-bottom: 20px;
-  width: 700px;
   text-align: left;
 }
 
 .image {
-  height: 700px;
+  height: 621px;
   border-radius: 12px;
   position:relative;
   top:0;
@@ -37,6 +36,7 @@
   height: 150px;
   position:relative;
   top:-450px;
+  right: -0px;
 }
 
 .text-container {
