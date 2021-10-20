@@ -14,8 +14,13 @@
   content: attr(title) ": ";
 }
 
+.donate {
+  height:60px;
+  padding-left: 20px;
+}
+
 .dbox-donation-button {
-  background: #41a2d8 url(https://donorbox.org/images/red_logo.png) no-repeat 37px;
+  /* background: #41a2d8 url(https://donorbox.org/images/red_logo.png) no-repeat 37px; */
   color: #fff;
   text-decoration: none;
   font-family: Verdana, sans-serif;
@@ -46,26 +51,29 @@
   background-color: black;
   padding-bottom: 1px;
   border-bottom: #41a2d8 5px solid;
-  overflow: auto;
   width: 100%;
-  display: flex;
 }
 
 .lettering {
-  height: 75px;
+  width: 268px;
+  padding-top: 4px;
 }
 
-.lettering-container {
-  padding: 0;
-  margin: 0;
+.wrapper .lettering-container {
+  /* display: block; */
   display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 60%;
+  justify-content: right;
+  margin-right: 50vw;
+  transform: translateX(134px);
+}
+
+span:first-of-type {
+  flex: 1;
 }
 
 .two-thing {
   display: flex;
-  align-items: flex-start;
+  /* align-items: flex-start; */
   align-items: center;
+  width: 100%
 }

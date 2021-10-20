@@ -14,6 +14,7 @@ import {MatDialogModule} from '@angular/material/dialog';
 import { SidepanelComponent } from './sidepanel/sidepanel.component';
 import { MainpanelComponent } from './mainpanel/mainpanel.component';
 import { ModalComponent } from './modal/modal.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ModalComponent } from './modal/modal.component';
     HeaderComponent,
     SidepanelComponent,
     MainpanelComponent,
-    ModalComponent
+    ModalComponent,
+    FooterComponent
   ],
   imports: [
     FlexLayoutModule,
