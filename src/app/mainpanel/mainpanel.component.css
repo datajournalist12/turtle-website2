@@ -20,7 +20,11 @@
   left:0;
 }
 
-.image:hover{
+/* .image:hover{
+  filter: brightness(50%);
+} */
+
+.parent:hover .child {
   filter: brightness(50%);
 }
 
@@ -33,11 +37,12 @@
 }
 
 .play {
+  position: absolute;
+  width: 150px;
   height: 150px;
-  position:relative;
-  top:-450px;
-  right: -0px;
+  left: 50%;
+  top: 50%;
+  margin-left: -310px;
+  margin-top: 50px;
 }
 
-.text-container {
-}
