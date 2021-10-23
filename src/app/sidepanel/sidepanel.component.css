@@ -71,3 +71,15 @@ img {
   top: -8px;
 }
 
+img {
+  cursor: pointer;
+}
+
+h2 {
+  cursor: pointer;
+}
+
+p {
+  cursor: pointer;
+}
+
