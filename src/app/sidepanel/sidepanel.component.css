@@ -1,10 +1,10 @@
 img {
-  height: 140px;
+  display: block;
   width: 140px;
-  border-radius: 12px;
 }
 
 .img-container {
+  /* max-width: 31.5%; */
 }
 
 .li-container {
@@ -12,10 +12,12 @@ img {
   padding-top: 7px;
   padding-bottom: 7px;
   border-top: 1px #888888 solid;
+  width: 100%;
 }
 
 .last{
   border-top: 1px #888888 solid;
+  /* width: 40%; */
 }
 
 .description-text {
@@ -32,7 +34,10 @@ img {
   font-style: normal;
   font-variant: normal;
   font-weight: 400;
-  color: #41a2d8
+  color: #41a2d8;
+  line-height: 1em;
+  padding-top: 7px;
+
 }
 
 .header-text {
@@ -51,13 +56,13 @@ img {
 .top-text {
   font-family: "Roboto Condensed", sans-serif;
   line-height: 1.4em;
-  font-size: 20.4px;
+  font-size: 1.3rem;
   font-style: normal;
   font-variant: normal;
   font-weight: 400;
   letter-spacing: 0.07em;
   color: #888888;
-  padding-top: 50px;
+  padding-top: 3.5vw;
   padding-bottom: 20px;
 }
 
@@ -71,15 +76,17 @@ img {
   top: -8px;
 }
 
-img {
-  cursor: pointer;
-}
-
 h2 {
   cursor: pointer;
 }
 
 p {
   cursor: pointer;
+}
+
+@media (min-width: 959px) {
+  .parent {
+    width: 621px;
+  }
 }
 

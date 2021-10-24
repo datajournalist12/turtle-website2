@@ -1,12 +1,12 @@
-<div class="wrapper">
+<div class="wrapper"
+     fxLayout="row"
+     fxLayout.lt-md="column">
 
-  <div class="logo-div">
+  <div class="logo-div" fxHide.lt-md>
     <img class="large-logo" src="../../assets/logo/logo_i.jpeg" />
   </div>
 
-
-
-  <div class="links-div">
+  <div fxLayoutAlign.lt-md="center center" class="links-div">
     <ul class="footer-links">
       <li><a href="">About Us</a></li>
       <li><a href="">Newsletter</a></li>
@@ -15,8 +15,11 @@
     </ul>
   </div>
 
-  <div class="newsletter">
-    <img matTooltip="Subscribe to Newsletter" src="./../../assets/newsletter.jpg">
+  <div fxLayoutAlign.lt-md="center center" class="newsletter">
+    <img
+      matTooltip="Subscribe to Newsletter"
+      src="./../../assets/newsletter.jpg"
+    />
   </div>
 
   <div class="copyright-div">
@@ -28,5 +31,4 @@
       <a href="https://www.corhs.org/">Colorado Reptile Humane Society</a>
     </p>
   </div>
-
 </div>

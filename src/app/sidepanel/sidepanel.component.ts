@@ -17,27 +17,27 @@ export class SidepanelComponent implements OnInit {
 
   data: any = [
                 {
-                  image: "./../../assets/ring.jpeg",
+                  image: "./../../assets/ring.jpg",
                   header: "",
-                  subhead: "A Nationwide Problem",
-                  description: "Never heard of turtle races? They are common events at Midwestern fairs and festivals. Learn why turtle scientists are expressing concern"
+                  subhead: "The problem",
+                  description: "Turtle races are common events at Midwestern festivals. Learn why turtle scientists are expressing concern"
                 },
                 {
                   image: "./../../assets/race.jpg",
                   header: "",
-                  subhead: "Reforming Races",
-                  description: "By adhering to guidlines we have developed turtle race organizers can actually become partners in conservation. Find out how."
+                  subhead: "Reforming races",
+                  description: "By adhering to new guidlines turtle race organizers can actually become conservation partners. Find out how"
                 },
                 {
                   image: "./../../assets/map.jpg",
                   header: "",
-                  subhead: "The Map",
-                  description: "Our team has mapped out over 600 turtle races, impacting an estimated 25,000 wild turtles a year. See if there is one near you."
+                  subhead: "Our map",
+                  description: "Over 25,000 turtles a year are used for turtle races. Our team has mapped out every turtle race in the US"
                 },
                 {
                   image: "./../../assets/box.jpg",
                   header: "",
-                  subhead: "Data Clearinghouse",
+                  subhead: "Data clearinghouse",
                   description: "View data our team has collected on turtle races, and read our publications"
                 }
               ]

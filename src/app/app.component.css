@@ -1,17 +1,35 @@
 .float-left-child {
-  float: left;
+  /* float: left; */
 }
 
 .sidepanel {
-  width: 472px;
+  /* width: 472px; */
 }
 
 .spacer {
-  width:40px;
-  height: 1px;
+  /* width:40px;
+  height: 1px; */
 }
 
 .parent {
-  display: table;
-  margin: 0 auto;
+  /* display: table;
+  margin: 0 auto; */
+}
+
+@media only screen and (max-width: 960px) {
+  .child {
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  }
+}
+
+@media only screen and (max-width: 359px) {
+  .child {
+  margin-left: 0px;
+  margin-right: 0px;
+  }
+}
+
+.spacer {
+  width: 2.5vw;
 }

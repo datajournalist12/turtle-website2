@@ -1,50 +1,17 @@
-.mqInfo {
-  padding-left: 25px;
-  margin-bottom: 5px;
-  margin-top: 10px;
-}
-
-.mqInfo > span {
-  padding-left: 0;
-  color: rgba(0, 0, 0, 0.54);
-  font-size: 0.8em;
-}
-
-.mqInfo > span::before {
-  content: attr(title) ": ";
-}
-
 .donate {
   height:60px;
-  padding-left: 20px;
-}
-
-.dbox-donation-button {
-  /* background: #41a2d8 url(https://donorbox.org/images/red_logo.png) no-repeat 37px; */
-  color: #fff;
-  text-decoration: none;
-  font-family: Verdana, sans-serif;
-  font-size: 16px;
-  padding: 15px 38px;
-  padding-left: 75px;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  border-radius: 2px;
-  box-shadow: 0 1px 0 0 #1f5a89;
-  text-shadow: 0 1px rgba(0, 0, 0, 0.3);
-  border-width: 0px;
 }
 
 .small-logo {
-  width: 83px;
-  float: left;
-  border-width: 0px;
-  position: relative;
-  bottom: -1px;
+  height: 25%;
+  display:block;
+  margin:auto;
 }
 
-.dbox-container {
-  padding-left: 32px;
+.donate {
+  height: 25%;
+  display:block;
+  margin:auto;
 }
 
 .wrapper {
@@ -55,25 +22,28 @@
 }
 
 .lettering {
-  width: 268px;
-  padding-top: 4px;
+  display:block;
+  margin:auto;
 }
 
 .wrapper .lettering-container {
   /* display: block; */
-  display: flex;
+  /* display: flex;
   justify-content: right;
   margin-right: 50vw;
-  transform: translateX(134px);
+  transform: translateX(134px); */
 }
 
-span:first-of-type {
-  flex: 1;
-}
 
-.two-thing {
-  display: flex;
-  /* align-items: flex-start; */
-  align-items: center;
-  width: 100%
+@media only screen and (max-width: 1367px) {
+
+/* .small-logo {
+  width:100%;
+  padding-top: 12px;
+  }
+
+  .lettering {
+    width: 100%;
+    padding-top: 4px;
+  } */
 }
