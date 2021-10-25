@@ -12,8 +12,7 @@ import { ModalComponent } from './modal/modal.component';
 export class AppComponent implements OnInit, AfterViewInit, OnDestroy {
   media$: Observable<MediaChange[]>;
 
-  constructor(media: MediaObserver,
-              public dialog: MatDialog) {
+  constructor(media: MediaObserver) {
     this.media$ = media.asObservable();
   }
 
@@ -44,11 +43,4 @@ export class AppComponent implements OnInit, AfterViewInit, OnDestroy {
   ngOnDestroy() {
   }
 
-  openDialog() {
-    const dialogRef = this.dialog.open(ModalComponent, { panelClass: 'custom-dialog-container' });
-
-    dialogRef.afterClosed().subscribe(result => {
-      console.log(`Dialog result: ${result}`);
-    });
-  }
 }

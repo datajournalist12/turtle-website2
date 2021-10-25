@@ -1,0 +1,11 @@
+@media (max-width: 959px) {
+  .card-holder {
+    margin-bottom: 20px;
+  }
+
+  .info {
+    max-width: 90%;
+  }
+}
+
+

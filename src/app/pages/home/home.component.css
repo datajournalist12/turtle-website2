@@ -1,0 +1,17 @@
+@media only screen and (max-width: 960px) {
+  .child {
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  }
+}
+
+@media only screen and (max-width: 359px) {
+  .child {
+  margin-left: 0px;
+  margin-right: 0px;
+  }
+}
+
+.spacer {
+  width: 2.5vw;
+}

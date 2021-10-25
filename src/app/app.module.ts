@@ -16,6 +16,8 @@ import { SidepanelComponent } from './sidepanel/sidepanel.component';
 import { MainpanelComponent } from './mainpanel/mainpanel.component';
 import { ModalComponent } from './modal/modal.component';
 import { FooterComponent } from './footer/footer.component';
+import { HomeComponent } from './pages/home/home.component';
+import { ConservationComponent } from './pages/conservation/conservation.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { FooterComponent } from './footer/footer.component';
     SidepanelComponent,
     MainpanelComponent,
     ModalComponent,
-    FooterComponent
+    FooterComponent,
+    HomeComponent,
+    ConservationComponent
   ],
   imports: [
     FlexLayoutModule,

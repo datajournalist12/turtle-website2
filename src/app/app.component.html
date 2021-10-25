@@ -1,26 +1,4 @@
 <app-header></app-header>
-
-<div
-  fxLayout="row"
-  fxLayout.lt-md="column"
-  fxLayoutAlign.gt-sm="center"
-  fxLayoutGap.gt-sm="25px"
-  class="parent"
->
-
-    <div class="spacer" fxHide.lt-md></div>
-
-    <div class="child main">
-      <app-mainpanel (click)="openDialog()"></app-mainpanel>
-    </div>
-
-    <div class="child float-left-child sidepanel">
-      <app-sidepanel></app-sidepanel>
-    </div>
-
-    <div class="spacer" fxHide.lt-md></div>
-
-  </div>
-
+<router-outlet></router-outlet>
 <app-footer></app-footer>
 

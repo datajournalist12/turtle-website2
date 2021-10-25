@@ -1,0 +1,88 @@
+<h2 class="info">Background</h2>
+<p class="info">
+  Turtle races, unfortunately, have a very checkered history when it comes to
+  animal welfare and turtle conservation. As early as 1925 – a year after turtle
+  races first appeared in Oklahoma – a concerted effort was launched by Kansas
+  citizens to outlaw the practice, on the grounds that it was cruel to animals
+  and depleting box turtle populations. Subsequent investigations in 1968, 1977,
+  1997 and 2005 have all found major problems with turtle races. Four states
+  (Maryland, Virginia, California and Florida) have now banned or significantly
+  limited turtle races.
+</p>
+<p class="info">
+  The Turtle Race Task Force (TRTF) was created in 2019 with the goal of
+  convincing state wildlife agencies to ban turtle races. While our
+  investigation found major problems with most races, a few races that were well
+  done made an impression on us. We learned that not only are turtle races
+  important to the communities that have them, but that at their best turtle
+  races can be humane and serve as a vehicle for conservation.
+</p>
+<p class="info">
+  To aide turtle race organizers in changing their races, the TRTF is currently
+  drafting guidelines for an "ideal" turtle race. We expect to release these by
+  Spring 2022. Races that conform to the guidelines will receive the TRTF's
+  <b>Humane and Sustainable</b>
+  certification, which may be displayed at the race and used in advertising to
+  indicate that race staff have gone above and beyond to make their event turtle
+  friendly.
+</p>
+<h2 class="info">The Core Concepts</h2>
+<p class="info">TRTF's guidelines revolve around these six core concepts.</p>
+
+<div
+  *ngFor="let datum of data"
+  class="card-holder"
+  style="
+    width: 90vw;
+    height: 90vw;
+    background-color: #41a2d8;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+  "
+>
+  <div>
+    <h2
+      style="
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 15px;
+        width: fit-content;
+        color: white;
+      "
+    >
+      {{ datum.header }}
+    </h2>
+  </div>
+  <div>
+  <p
+    style="
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: fit-content;
+      padding-left: 15px;
+      padding-right: 15px;
+      color: white;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 1.2em;
+    "
+  >
+    {{ datum.subhead }}
+  </p>
+</div>
+<div>
+  <img
+    style="
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: {{datum.width}};
+      margin-bottom: 18px;
+    "
+    src="{{ datum.image }}"
+  />
+</div>
