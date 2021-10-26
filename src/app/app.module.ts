@@ -18,6 +18,7 @@ import { ModalComponent } from './modal/modal.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ConservationComponent } from './pages/conservation/conservation.component';
+import { ProblemsComponent } from './pages/problems/problems.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { ConservationComponent } from './pages/conservation/conservation.compone
     ModalComponent,
     FooterComponent,
     HomeComponent,
-    ConservationComponent
+    ConservationComponent,
+    ProblemsComponent,
   ],
   imports: [
     FlexLayoutModule,

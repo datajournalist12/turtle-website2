@@ -1,7 +1,7 @@
 <div class="top-text">LEARN MORE</div>
 <ng-container *ngFor="let datum of data, let isLast = last">
   <!-- <a href="#" routerLink="/">Home</a> -->
-  <div class="li-container" href="#" routerLink="/conservation">
+  <div class="li-container" href="#" routerLink="{{datum.link}}">
     <div class="img-container">
       <img src="{{datum.image}}" />
     </div>

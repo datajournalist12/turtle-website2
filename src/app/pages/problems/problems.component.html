@@ -1,0 +1,75 @@
+<h2 class="info">Why Turtle Conservationists are Concerned about Turtle Racing</h2>
+<p class="info">
+  Turtle races are events that are common at fairs and festivals in some areas of the United States.
+  While the concept may sound innocent, thousands of wild turtles are collected for the practice
+  every year by race participants. The Turtle Race Task Force (TRTF) has mapped out over 600 festivals with annual turtle
+  races.
+</p>
+<p>Unlike other wildlife related activities like fishing and hunting, turtle races have not
+  developed a code of ethics – a "Conservation Ethic" – that prevents harm to individual turtles
+  and damage to turtle populations. The events are failing to turn children toward wildlife
+  conservation, and most turtle race organizers make no effort to contribute towards the conservation of the
+  species they use.
+</p>
+<p>The TRTF is working to introduce a Conservation Ethic into turtle racing. But to fix the problems
+  it is important to first understand it. Click a topic below to learn more about it.
+</p>
+
+<div
+  *ngFor="let datum of data"
+  class="card-holder"
+  style="
+    width: 90vw;
+    height: 90vw;
+    background-color: #41a2d8;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+    margin-bottom: 20px;
+  "
+>
+  <div>
+    <h2
+      style="
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 15px;
+        width: fit-content;
+        color: white;
+      "
+    >
+      {{ datum.header }}
+    </h2>
+  </div>
+  <div>
+  <p
+    style="
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: fit-content;
+      padding-left: 15px;
+      padding-right: 15px;
+      color: white;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 1.2em;
+    "
+  >
+    {{ datum.subhead }}
+  </p>
+</div>
+<div>
+  <img
+    style="
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: {{datum.width}};
+      margin-bottom: 18px;
+    "
+    src="{{ datum.image }}"
+  />
+</div>
