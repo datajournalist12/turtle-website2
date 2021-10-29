@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { CertComponent } from 'src/app/cert/cert.component';
+import { SignupComponent } from 'src/app/signup/signup.component';
 
 @Component({
   selector: 'app-conservation',
@@ -7,10 +9,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ConservationComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+   }
 
   ngOnInit(): void {
   }
+
+
 
   data = [
           {header: "Humane", subhead: "Ethical turtle races do not result in cruelty or neglect to individual turtles.", image: "./../../../assets/003-turtle.png", width: "75%"},

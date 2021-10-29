@@ -1,63 +1,90 @@
-<h2 class="info">Background</h2>
-<p class="info">
-  Turtle races, unfortunately, have a very checkered history when it comes to
-  animal welfare and turtle conservation. As early as 1925 – a year after turtle
-  races first appeared in Oklahoma – a concerted effort was launched by Kansas
-  citizens to outlaw the practice, on the grounds that it was cruel to animals
-  and depleting box turtle populations. Subsequent investigations in 1968, 1977,
-  1997 and 2005 have all found major problems with turtle races. Four states
-  (Maryland, Virginia, California and Florida) have now banned or significantly
-  limited turtle races.
-</p>
-<p class="info">
-  The Turtle Race Task Force (TRTF) was created in 2019 with the goal of
-  convincing state wildlife agencies to ban turtle races. While our
-  investigation found major problems with most races, a few races that were well
-  done made an impression on us. We learned that not only are turtle races
-  important to the communities that have them, but that at their best turtle
-  races can be humane and serve as a vehicle for conservation.
-</p>
-<p class="info">
-  To aide turtle race organizers in changing their races, the TRTF is currently
-  drafting guidelines for an "ideal" turtle race. We expect to release these by
-  Spring 2022. Races that conform to the guidelines will receive the TRTF's
-  <b>Humane and Sustainable</b>
-  certification, which may be displayed at the race and used in advertising to
-  indicate that race staff have gone above and beyond to make their event turtle
-  friendly.
-</p>
-<h2 class="info">The Core Concepts</h2>
-<p class="info">TRTF's guidelines revolve around these six core concepts.</p>
+<div style="position: relative">
+  <div class="all">
+    <h2 class="info">Background</h2>
 
-<div
-  fxLayout="column"
-  fxLayout.gt-md="row"
-  fxLayout.gt-sm="row wrap"
-  fxLayoutAlign="center"
-  fxLayoutGap="20px"
->
-  <ng-container *ngFor="let datum of data; index as i">
-    <div class="card-holder">
-      <div>
-        <div>
-          <h2 class="header">
-            {{ datum.header }}
-          </h2>
-        </div>
-        <div>
-          <p class="subhead">
-            {{ datum.subhead }}
-          </p>
-        </div>
-        <div>
-          <img
-            style="
-      width: {{ datum.width }};
-    "
-            src="{{ datum.image }}"
-          />
-        </div>
+    <div
+      style="
+        background: rgb(2, 0, 36);
+        background: linear-gradient(
+          90deg,
+          rgba(2, 0, 36, 1) 0%,
+          rgba(216, 76, 65, 1) 34%,
+          rgba(65, 216, 68, 1) 100%
+        );
+        height: 400px;
+        width: 100%;
+      "
+      fxLayout="row" fxLayoutAlign="space-between"
+    >
+      <div class="problem-div">
+        <h3>The Problem</h3>
+        <p>Over 90% of turtle races failed to meet basic standards in 2021</p>
+      </div>
+
+      <div class="problem-div">
+        <h3>The Solution: You</h3>
+        <p>As a turtle race organizer, you are pefectly positioned
+           to help the practice of turtle racing develop a powerful conservation ethic
+        </p>
+      </div>
+
+      <div class="problem-div">
+        <h3>A Conservation Partnership</h3>
+        <p>The Turtle Race Task Force has the expertise needed to advise you on revolutionizing your race
+
+        </p>
       </div>
     </div>
-  </ng-container>
+
+    <h2 class="info">The Core Concepts</h2>
+    <p class="info">
+      TRTF's guidelines revolve around these six core concepts.
+    </p>
+
+    <div
+      fxLayout="column"
+      fxLayout.gt-md="row"
+      fxLayout.gt-sm="row wrap"
+      fxLayoutAlign="center"
+      fxLayoutGap="20px"
+    >
+      <ng-container *ngFor="let datum of data; index as i">
+        <div class="card-holder">
+          <div>
+            <div>
+              <h2 class="header">
+                {{ datum.header }}
+              </h2>
+            </div>
+            <div>
+              <p class="subhead">
+                {{ datum.subhead }}
+              </p>
+            </div>
+            <div>
+              <img
+                style="
+      width: {{ datum.width }};
+    "
+                src="{{ datum.image }}"
+              />
+            </div>
+          </div>
+        </div>
+      </ng-container>
+    </div>
+  </div>
+  <img
+    style="position: absolute; height: 60%; width: 16%; top: 450px; left: 60px"
+    src="./../../../assets/svg/curved-arrow-with-broken-line.svg"
+    alt=""
+  />
+
+  <img
+  style="position: absolute; height: 60%; width: 16%; top: 1060px; left: 800px"
+  src="./../../../assets/svg/curved-arrow-with-broken-line.svg"
+  alt=""
+/>
+  <app-cert></app-cert>
+  <app-signup></app-signup>
 </div>

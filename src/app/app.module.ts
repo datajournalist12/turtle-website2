@@ -19,6 +19,8 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ConservationComponent } from './pages/conservation/conservation.component';
 import { ProblemsComponent } from './pages/problems/problems.component';
+import { CertComponent } from './cert/cert.component';
+import { SignupComponent } from './signup/signup.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +33,8 @@ import { ProblemsComponent } from './pages/problems/problems.component';
     HomeComponent,
     ConservationComponent,
     ProblemsComponent,
+    CertComponent,
+    SignupComponent,
   ],
   imports: [
     FlexLayoutModule,

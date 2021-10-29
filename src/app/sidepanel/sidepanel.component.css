@@ -31,11 +31,11 @@ img {
 .subhead-text {
   font-family: "Roboto Condensed",
   sans-serif; font-size: 20.4px;
-  font-style: normal;
-  font-variant: normal;
   font-weight: 400;
   color: #41a2d8;
   line-height: 1em;
+  font-style: normal;
+  font-variant: normal;
   padding-top: 7px;
 
 }
