@@ -92,7 +92,7 @@
       fxLayoutAlign="center"
       fxLayoutGap="20px"
     >
-      <ng-container *ngFor="let datum of data; index as i">
+      <ng-container *ngFor="let datum of data1; index as i">
         <div class="card-holder">
           <div>
             <div>
@@ -108,21 +108,58 @@
             <div>
               <img
                 style="
-      width: {{ datum.width }};
-    "
+      width: {{ datum.width }};"
                 src="{{ datum.image }}"
               />
             </div>
           </div>
         </div>
       </ng-container>
+
     </div>
+
+    <div
+    style="padding-top: 50px"
+    fxLayout="column"
+    fxLayout.gt-md="row"
+    fxLayout.gt-sm="row wrap"
+    fxLayoutAlign="center"
+    fxLayoutGap="20px"
+  >
+    <ng-container *ngFor="let datum of data2; index as i">
+      <div class="card-holder">
+        <div>
+          <div>
+            <h2 class="header">
+              {{ datum.header }}
+            </h2>
+          </div>
+          <div>
+            <p class="subhead">
+              {{ datum.subhead }}
+            </p>
+          </div>
+          <div>
+            <img
+              style="
+    width: {{ datum.width }};"
+              src="{{ datum.image }}"
+            />
+          </div>
+        </div>
+      </div>
+    </ng-container>
+
+  </div>
+
   </div>
   <img
     style="position: absolute; height: 75%; width: 16%; top: 425px; left: 310px"
     src="./../../../assets/svg/curved-arrow-with-broken-line.svg"
     alt=""
   />
+
+
 
   <img
     style="
