@@ -21,6 +21,10 @@ import { ConservationComponent } from './pages/conservation/conservation.compone
 import { ProblemsComponent } from './pages/problems/problems.component';
 import { CertComponent } from './cert/cert.component';
 import { SignupComponent } from './signup/signup.component';
+import { ProbSolPartComponent } from './pages/conservation/prob-sol-part/prob-sol-part.component';
+import { CornerstonesComponent } from './pages/conservation/cornerstones/cornerstones.component';
+import { SixStonesComponent } from './pages/conservation/six-stones/six-stones.component';
+import { CertificationComponent } from './pages/conservation/certification/certification.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +39,10 @@ import { SignupComponent } from './signup/signup.component';
     ProblemsComponent,
     CertComponent,
     SignupComponent,
+    ProbSolPartComponent,
+    CornerstonesComponent,
+    SixStonesComponent,
+    CertificationComponent,
   ],
   imports: [
     FlexLayoutModule,
