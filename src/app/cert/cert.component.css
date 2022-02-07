@@ -7,9 +7,6 @@
 
 .humane {
   height: 100px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .humane-div {
@@ -40,7 +37,7 @@
 }
 
 .thing {
-  text-align: center;
+  /* text-align: center; */
   padding-top: 20px;
   color: black !important;
 }
