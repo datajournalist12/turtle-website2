@@ -19,12 +19,13 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ConservationComponent } from './pages/conservation/conservation.component';
 import { ProblemsComponent } from './pages/problems/problems.component';
-import { CertComponent } from './cert/cert.component';
-import { SignupComponent } from './signup/signup.component';
+import { CertComponent } from './pages/conservation/cert/cert.component';
+import { SignupComponent } from './pages/conservation/signup/signup.component';
 import { ProbSolPartComponent } from './pages/conservation/prob-sol-part/prob-sol-part.component';
 import { CornerstonesComponent } from './pages/conservation/cornerstones/cornerstones.component';
 import { SixStonesComponent } from './pages/conservation/six-stones/six-stones.component';
 import { CertificationComponent } from './pages/conservation/certification/certification.component';
+import { TestpageComponent } from './testpage/testpage.component';
 
 @NgModule({
   declarations: [
@@ -43,6 +44,7 @@ import { CertificationComponent } from './pages/conservation/certification/certi
     CornerstonesComponent,
     SixStonesComponent,
     CertificationComponent,
+    TestpageComponent,
   ],
   imports: [
     FlexLayoutModule,

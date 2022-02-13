@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { CertComponent } from 'src/app/cert/cert.component';
-import { SignupComponent } from 'src/app/signup/signup.component';
+import { CertComponent } from 'src/app/pages/conservation/cert/cert.component';
+import { SignupComponent } from 'src/app/pages/conservation/signup/signup.component';
 
 @Component({
   selector: 'app-conservation',
