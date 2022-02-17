@@ -1,4 +1,5 @@
-.lead-text {
+@media only screen and (min-width: 960px) {
+  .lead-text {
   font-size: 22.4px;
   font-weight: 400;
   color: white;
@@ -16,4 +17,45 @@
   border-radius: 4px;
   text-align: center !important;
   padding: 5px;
+}
+
+.ornate-image {
+  object-fit: 
+  cover; height: 25rem; 
+  width: 100%; 
+  display: table-row;
+}
+}
+
+@media only screen and (max-width: 959px) {
+    .lead-text {
+    font-size: 22.4px;
+    font-weight: 400;
+    color: white;
+    line-height: 1.25em;
+    font-family: "Roboto Condensed", sans-serif;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .apply {
+    font-size: 30px !important;
+    border: 2px solid white;
+    border-radius: 4px;
+    text-align: center !important;
+    padding: 5px;
+  }
+
+  .ornate-image {
+    object-fit: 
+    cover; height: 25rem; 
+    width: 800px;
+    height: 140px;
+    transform: translateX(-25%);
+    overflow-y: hidden;
+    object-fit: cover; 
+    display: table-row;
+  }
 }
