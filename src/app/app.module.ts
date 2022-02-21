@@ -26,6 +26,7 @@ import { CornerstonesComponent } from './pages/conservation/cornerstones/corners
 import { SixStonesComponent } from './pages/conservation/six-stones/six-stones.component';
 import { CertificationComponent } from './pages/conservation/certification/certification.component';
 import { TestpageComponent } from './testpage/testpage.component';
+import { MapComponent } from './map/map.component';
 
 @NgModule({
   declarations: [
@@ -45,6 +46,7 @@ import { TestpageComponent } from './testpage/testpage.component';
     SixStonesComponent,
     CertificationComponent,
     TestpageComponent,
+    MapComponent,
   ],
   imports: [
     FlexLayoutModule,

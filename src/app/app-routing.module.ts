@@ -6,12 +6,14 @@ import { ConservationComponent } from './pages/conservation/conservation.compone
 import { ProblemsComponent } from './pages/problems/problems.component';
 
 import { TestpageComponent } from './testpage/testpage.component';
+import { MapComponent } from './map/map.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
   {path: 'conservation', component: ConservationComponent},
   {path: 'problems', component: ProblemsComponent},
-  {path: 'test', component: TestpageComponent}
+  {path: 'test', component: TestpageComponent},
+  {path: 'map', component: MapComponent}
 ];
 
 @NgModule({
