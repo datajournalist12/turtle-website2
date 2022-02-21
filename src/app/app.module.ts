@@ -28,6 +28,7 @@ import { CertificationComponent } from './pages/conservation/certification/certi
 import { TestpageComponent } from './testpage/testpage.component';
 import { MapComponent } from './map/map.component';
 import { DataComponent } from './data/data.component';
+import { DonationsComponent } from './donations/donations.component';
 
 @NgModule({
   declarations: [
@@ -49,6 +50,7 @@ import { DataComponent } from './data/data.component';
     TestpageComponent,
     MapComponent,
     DataComponent,
+    DonationsComponent,
   ],
   imports: [
     FlexLayoutModule,
