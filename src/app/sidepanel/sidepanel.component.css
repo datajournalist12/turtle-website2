@@ -17,7 +17,6 @@ img {
 
 .last{
   border-top: 1px #888888 solid;
-  /* width: 40%; */
 }
 
 .description-text {
@@ -62,7 +61,7 @@ img {
   font-weight: 400;
   letter-spacing: 0.07em;
   color: #888888;
-  padding-top: 3.5vw;
+  padding-top: 50px;
   padding-bottom: 20px;
 }
 
