@@ -27,6 +27,7 @@ import { SixStonesComponent } from './pages/conservation/six-stones/six-stones.c
 import { CertificationComponent } from './pages/conservation/certification/certification.component';
 import { TestpageComponent } from './testpage/testpage.component';
 import { MapComponent } from './map/map.component';
+import { DataComponent } from './data/data.component';
 
 @NgModule({
   declarations: [
@@ -47,6 +48,7 @@ import { MapComponent } from './map/map.component';
     CertificationComponent,
     TestpageComponent,
     MapComponent,
+    DataComponent,
   ],
   imports: [
     FlexLayoutModule,
