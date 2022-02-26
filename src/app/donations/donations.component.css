@@ -16,6 +16,9 @@
 .appeal {
     color: white;
     font-size: 30px;
-    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
     margin-top: 25px;
+    height: 60px;
 }
