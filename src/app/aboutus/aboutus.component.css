@@ -5,9 +5,47 @@
 }
 
 .paragraph {
-    width: 270px;
+    width: 230px;
+    text-align: center;
 }
 
 .bio {
     margin-top: 35px;
+}
+
+.headshot {
+    border: 8px solid  #41a2d8;
+    border-radius: 12px;;
+}
+
+.name-text {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 0;
+    color: white;
+
+}
+
+.title-text {
+    text-align: center;
+    font-style: italic;
+    color: white;
+    margin-top: 4;
+
+}
+
+.bio-border {
+    height: 140px; 
+    width: 240px; 
+    background-color: rgb(66, 61, 66);
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0px;
+    padding-top: 6px;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    color: rgb(209, 209, 209);
+    line-height: 16px;
 }

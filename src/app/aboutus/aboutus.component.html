@@ -1,19 +1,34 @@
-<div fxLayout="row" fxLayoutAlign="center" *ngFor="let bios of bio">
-    <div class="bio">
-        <div class="big-ole-block">
+<p>About the Turtle Race Task Force</p>
+
+<p>The Turtle Race Task Force was launched in November 2019 after a group of like minded turtle conservation advocates
+    noticed
+    problems with turtle races in their respective areas. Initially created with the goal of getting turtle races
+    prohibited, our
+    views have evolved — we now believe that turtle races can be part of the solution if organizers take proactive steps
+    towards
+    conservation and animal welfare.
+</p>
+<p>
+    The Colorado Reptile Humane Society has generously served as our fiscal sponsor since shortly after our founding,
+    allowing us all
+    the advantages that come with being a 501(c)3 non-profit during our development. During 2022 we will become a
+    full-fledged non-profit
+    as the Turtle Conservation Society. This name reflects our vision to operate in many areas of turtle conservation,
+    including reforming
+    turtle races.
+</p>
+
+<p>Meet the Board</p>
+<p>The Turtle Race Task Force is governed by a nine member Board of Advisors — all of whom are passionate about turtle
+    conservation and welfare</p>
+
+<div fxLayout="row wrap" fxLayoutAlign="space-evenly center">
+    <div class="bio" *ngFor="let bio of bios">
+        <img src="{{bio.photoUrl}}" class="headshot">
+        <div class="bio-border">
+            <p class="name-text">{{bio.name}}</p>
+            <p class="title-text">{{bio.title}}&nbsp;—&nbsp;{{bio.Location}}</p>
+            <p class="paragraph">{{bio.text}}</p>
         </div>
-        <p class="paragraph">I'm baby brunch lyft kitsch 90's vegan hexagon. Cornhole sriracha sustainable
-            live-edge butcher twee, green juice YOLO letterpress 3 wolf moon scenester four dollar
-            toast. Vaporware art party keffiyeh small batch. Kickstarter austin venmo gochujang
-        </p>
-    </div>
-    <div style="height: 1px; width: 10vw;"></div>
-    <div class="bio">
-        <div class="big-ole-block">
-        </div>
-        <p class="paragraph">I'm baby brunch lyft kitsch 90's vegan hexagon. Cornhole sriracha sustainable
-            live-edge butcher twee, green juice YOLO letterpress 3 wolf moon scenester four dollar
-            toast. Vaporware art party keffiyeh small batch. Kickstarter austin venmo gochujang
-        </p>
     </div>
 </div>
