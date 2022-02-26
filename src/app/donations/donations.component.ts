@@ -7,7 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DonationsComponent implements OnInit {
 
-  progressPercentage: number = 70;
+  totalGoal: number = 100000
+  raisedGoal: number = 50000
+  progressPercentage: number = (this.raisedGoal/this.totalGoal)*100;
 
   constructor() { }
 

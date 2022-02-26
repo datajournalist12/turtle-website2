@@ -1,0 +1,13 @@
+.big-ole-block {
+    height: 270px;
+    width: 270px;
+    background-color: blue;
+}
+
+.paragraph {
+    width: 270px;
+}
+
+.bio {
+    margin-top: 35px;
+}

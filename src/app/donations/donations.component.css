@@ -12,3 +12,10 @@
     from { width: 0%; }
     to { width: var(--raised-amount); }
   }
+
+.appeal {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 25px;
+}

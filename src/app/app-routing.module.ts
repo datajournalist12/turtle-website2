@@ -8,6 +8,7 @@ import { ProblemsComponent } from './pages/problems/problems.component';
 import { TestpageComponent } from './testpage/testpage.component';
 import { MapComponent } from './map/map.component';
 import { DataComponent } from './data/data.component';
+import { AboutusComponent } from './aboutus/aboutus.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -15,7 +16,8 @@ const routes: Routes = [
   {path: 'problems', component: ProblemsComponent},
   {path: 'test', component: TestpageComponent},
   {path: 'map', component: MapComponent},
-  {path: 'data', component: DataComponent}
+  {path: 'data', component: DataComponent},
+  {path: 'about-us', component: AboutusComponent}
 ];
 
 @NgModule({
