@@ -1,0 +1,26 @@
+@media only screen and (min-width: 960px) {
+
+#mc_embed_signup {
+    background: #fff;
+    clear:left; 
+    font:14px Helvetica,
+    Arial,
+    sans-serif;  
+    width:600px;
+    margin-right: auto;
+    margin-left: auto;
+    }
+}
+
+@media only screen and (max-width: 959px) {
+
+    #mc_embed_signup {
+        background: #fff;
+        clear:left; 
+        font:14px Helvetica,
+        Arial,
+        sans-serif;  
+        margin-right: auto;
+        margin-left: auto;
+        }
+    }

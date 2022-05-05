@@ -30,6 +30,8 @@ import { MapComponent } from './map/map.component';
 import { DataComponent } from './data/data.component';
 import { DonationsComponent } from './donations/donations.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
+import { NewsletterComponent } from './newsletter/newsletter.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
 
 @NgModule({
   declarations: [
@@ -53,6 +55,8 @@ import { AboutusComponent } from './aboutus/aboutus.component';
     DataComponent,
     DonationsComponent,
     AboutusComponent,
+    NewsletterComponent,
+    ContactUsComponent,
   ],
   imports: [
     FlexLayoutModule,

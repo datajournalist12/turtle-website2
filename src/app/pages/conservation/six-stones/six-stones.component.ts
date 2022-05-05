@@ -21,7 +21,7 @@ export class SixStonesComponent implements OnInit {
   data2 = [
     {header: "4. Educational", subhead: "An informed public is vital to turtle conservation efforts.", image: "./../../../assets/turtle-presentation.png", width: "60%"},
     {header: "5. Scientific", subhead: " Data collected at turtle races help biologists manage turtle populations.", image: "./../../../assets/svg/006-analytics.svg", width: "50%"},
-    {header: "6. Philanthropic", subhead: "Your generous donations help to fund our turtle conservation efforts.", image: "./../../../assets/svg/014-give-money.svg", width: "50%"}
+    {header: "6. Philanthropic", subhead: "Your generous donations help to fund turtle conservation efforts.", image: "./../../../assets/svg/014-give-money.svg", width: "50%"}
   ]
 
 }
