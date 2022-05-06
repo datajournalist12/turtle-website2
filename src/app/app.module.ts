@@ -32,6 +32,7 @@ import { DonationsComponent } from './donations/donations.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { NewsletterComponent } from './newsletter/newsletter.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+import { ShopComponent } from './shop/shop.component';
 
 @NgModule({
   declarations: [
@@ -57,6 +58,7 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
     AboutusComponent,
     NewsletterComponent,
     ContactUsComponent,
+    ShopComponent,
   ],
   imports: [
     FlexLayoutModule,
