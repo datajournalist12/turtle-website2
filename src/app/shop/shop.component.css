@@ -34,4 +34,8 @@ section {
     color: #FFFFFF;
     text-decoration: none;
   }
+
+  .centered {
+    text-align: center;
+  }
   
