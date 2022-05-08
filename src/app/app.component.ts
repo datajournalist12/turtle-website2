@@ -22,7 +22,6 @@ export class AppComponent implements OnInit, AfterViewInit, OnDestroy {
   }
 
   ngAfterViewInit() {
-    this.loadScript('https://donorbox.org/install-popup-button.js');
   }
 
   public loadScript(url: string) {
