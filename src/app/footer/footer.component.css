@@ -150,14 +150,12 @@
     /* height: 20%; */
     cursor: pointer;
     border-radius: 150px;
-    width: 100%;
+    width: 150px;
   }
 
   .newsletter {
     /* width: 25%; */
-    width: 150px;
-    display: inline-block;
-    align-items: right;
+    display: block;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;

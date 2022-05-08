@@ -15,7 +15,7 @@ export class ProblemsComponent implements OnInit {
 
   data1 = [
     {header: "ANIMAL NEGLECT", subhead: "Turtle races where entertainment is prioritized over animal welfare lead to neglect and abuse", image: "./../../../assets/svg/flipped-turtle.png", width: "75%"},
-    {header: "DISEASE", subhead: "Turtle race conditions cause disease and risk spreading it back to wild populations", image: "./../../../assets/svg/disease-turtle.png", width: "35%"},
+    {header: "DISEASE", subhead: "Turtle race conditions cause disease and risk spreading it back to wild populations", image: "./../../../assets/svg/disease-turtle-2.png", width: "35%"},
     {header: "RELOCATION", subhead: "Relocating highly territorial turtles into new areas results in devastating mortality", image: "./../../../assets/svg/hill.png", width: "50%"},
    ]
 
