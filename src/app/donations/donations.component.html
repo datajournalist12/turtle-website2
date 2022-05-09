@@ -1,4 +1,4 @@
-<div class="wrapper">
+<div fxShow.lt-md="false" class="wrapper">
     <div class="progress-bg">
     	<div class="progress-bar" style="--raised-amount: {{progressPercentage}}%;">
         	<h3 class="raised">{{progressPercentage}}%&nbsp;raised </h3>
@@ -6,4 +6,13 @@
             <button routerLink="/shop" *ngIf="!timeHit2" [@inOutAnimation] class="appeal" mat-raised-button color="accent">Donate Now</button>	
         	<h3 *ngIf="timeHit1" [@inOutAnimation] class="goal" style="color: white;">Goal: $60,000</h3>
     </div>
+</div>
+
+<div fxShow.gt-sm="false" class="wrapper">
+    <div *ngIf="timeHit1" [@inOutAnimation] class="progress-bg">
+    	<div class="progress-bar" style="--raised-amount: {{progressPercentage}}%;">
+        	<h3 style="font-size: 20px !important;" class="raised">{{progressPercentage}}%&nbsp;raised </h3>
+        </div>
+    </div>
+    <button routerLink="/shop" *ngIf="!timeHit2" [@inOutAnimation] class="appeal" mat-raised-button color="accent">Donate Now</button>
 </div>

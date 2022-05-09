@@ -13,12 +13,25 @@
     to { width: var(--raised-amount); }
   }
 
-.appeal {
-    color: white;
-    font-size: 30px;
-    margin-top: 10px;
-    margin-right: auto;
-    margin-left: auto;
-    display: inline-block;
-    height: 60px;
+@media only screen and (min-width: 960px) { 
+    .appeal {
+        color: white;
+        font-size: 30px;
+        margin-top: 10px;
+        margin-right: auto;
+        margin-left: auto;
+        display: inline-block;
+        height: 60px;
+    }
+}
+
+@media only screen and (max-width: 959px) { 
+    .appeal {
+        color: white;
+        font-size: 30px;
+        display: inline-block;
+        /* margin-left: auto;
+        margin-right: auto; */
+        height: 60px;
+    }
 }
