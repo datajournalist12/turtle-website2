@@ -1,9 +1,9 @@
 <div class="wrapper">
-    <button *ngIf="clicked" (click)="fadeMethod()" [@inOutAnimation] class="appeal" mat-raised-button color="accent">Donate Now</button>
     <div class="progress-bg">
     	<div class="progress-bar" style="--raised-amount: {{progressPercentage}}%;">
         	<h3 class="raised">{{progressPercentage}}%&nbsp;raised </h3>
-        </div>	
-        	<h3 *ngIf="clicked" [@inOutAnimation] class="goal" style="color: white;">Goal: $60,000</h3>
+        </div>
+            <button routerLink="/shop" *ngIf="!timeHit2" [@inOutAnimation] class="appeal" mat-raised-button color="accent">Donate Now</button>	
+        	<h3 *ngIf="timeHit1" [@inOutAnimation] class="goal" style="color: white;">Goal: $60,000</h3>
     </div>
 </div>

@@ -34,18 +34,15 @@ export class DonationsComponent implements OnInit {
   totalGoal: number = 60000
   raisedGoal: number = 10000
   progressPercentage: string = ((this.raisedGoal/this.totalGoal)*100).toPrecision(3);
-  clicked: boolean = true;
+  timeHit1: boolean = true;
+  timeHit2: boolean = true;
 
   constructor() { }
 
   ngOnInit(): void {
-    const timer = setTimeout(() => console.log("timer worked"), 4000);
+    const timer1 = setTimeout(() => this.timeHit1 = false, 3999);
+    const timer2 = setTimeout(() => this.timeHit2 = false, 5000);
 
-  }
-
-  fadeMethod() {
-    this.clicked = !this.clicked;
-    console.log(this.clicked)
   }
 
 }
