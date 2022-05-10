@@ -32,3 +32,16 @@
         </div>
     </div>
 </div>
+
+<p style="font-size: 30px; padding-top: 50px; text-align: center;">Our Supporters</p>
+<p style="font-size: 18px; padding-top: 18px; width: 80%; margin-left: auto; margin-right: auto; text-align: center;">The Turtle Race Task Force is supported by small donors the following
+generous grant makers</p>
+
+<div fxLayout="row wrap" fxLayoutAlign="space-evenly">
+    <div *ngFor="let supporter of supporters">
+        <a href="{{supporter.webUrl}}">
+        <img fxShow.gt-xs="false" src="{{supporter.photoUrl}}" style="margin-left: 35px; margin-right: 35px; margin-top: 35px; display: block; width: 80vw;">
+        <img fxShow.lt-sm="false" src="{{supporter.photoUrl}}" style="margin-left: 35px; margin-right: 35px; margin-top: 35px; display: block; width: 25vw;">
+        </a>
+    </div>
+</div>

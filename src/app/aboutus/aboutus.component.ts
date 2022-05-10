@@ -24,4 +24,14 @@ export class AboutusComponent implements OnInit {
     { name: "Dr. Liv Jones", photoUrl: "./../../assets/peeps/liv.jpg", title: "Board Member", Location: "Manhattan, Kansas", text: "Liv is a small animal veterinarian who has a special passion for turtles and tortoises" }
   ]
 
+  supporters: any[] = [
+    {photoUrl: "./../../assets/supporters/kirkpatrick.jpg", webUrl: "https://kirkpatrickfoundation.com/", size: "100%"},
+    {photoUrl: "./../../assets/supporters/vista_dios.jpg", webUrl: "https://vistadiosfoundation.org/", size: "100%"},
+    {photoUrl: "./../../assets/supporters/summerlee.jpg", webUrl: "https://summerlee.org/", size: "100%"},
+    {photoUrl: "./../../assets/supporters/parks.jpg", webUrl: "https://www.parksfoundation.org/", size: "100%"},
+    {photoUrl: "./../../assets/supporters/shumaker.jpg", webUrl: "https://shumakerfamilyfoundation.org/", size: "100%"},
+    {photoUrl: "./../../assets/supporters/dutton.jpg", webUrl: "http://www.jameseduttonfoundation.org/", size: "100%"},
+
+  ]
+
 }
