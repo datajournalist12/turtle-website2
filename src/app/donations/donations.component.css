@@ -1,5 +1,5 @@
 .wrapper {
-    width: 100%;
+    width: 100vw;
     height: 102px;
     background-color: #41a2d8;
     bottom: 0;
@@ -29,9 +29,12 @@
     .appeal {
         color: white;
         font-size: 30px;
-        display: inline-block;
-        /* margin-left: auto;
-        margin-right: auto; */
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 17px;
+        margin-bottom: auto;
         height: 60px;
+        /* width: 20%; */
     }
 }
