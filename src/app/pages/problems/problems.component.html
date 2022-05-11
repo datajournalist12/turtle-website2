@@ -9,7 +9,7 @@ fxLayoutAlign="center"
 fxLayoutGap="20px"
 >
 <ng-container *ngFor="let datum of data1; index as i">
-  <div class="card-holder">
+  <div routerLink={{datum.path}} class="card-holder">
     <div>
       <div>
         <h2 class="header">
@@ -42,7 +42,7 @@ fxLayoutAlign="center"
 fxLayoutGap="20px"
 >
 <ng-container *ngFor="let datum of data2; index as i">
-<div class="card-holder">
+<div routerLink={{datum.path}} class="card-holder">
   <div>
     <div>
       <h2 class="header">
