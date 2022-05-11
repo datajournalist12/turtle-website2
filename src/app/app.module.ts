@@ -33,6 +33,12 @@ import { AboutusComponent } from './aboutus/aboutus.component';
 import { NewsletterComponent } from './newsletter/newsletter.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { ShopComponent } from './shop/shop.component';
+import { NeglectComponent } from './problems/neglect/neglect.component';
+import { DiseaseComponent } from './problems/disease/disease.component';
+import { RelocationComponent } from './problems/relocation/relocation.component';
+import { HotComponent } from './problems/hot/hot.component';
+import { PopulationsComponent } from './problems/populations/populations.component';
+import { EndangeredComponent } from './problems/endangered/endangered.component';
 
 @NgModule({
   declarations: [
@@ -59,6 +65,12 @@ import { ShopComponent } from './shop/shop.component';
     NewsletterComponent,
     ContactUsComponent,
     ShopComponent,
+    NeglectComponent,
+    DiseaseComponent,
+    RelocationComponent,
+    HotComponent,
+    PopulationsComponent,
+    EndangeredComponent,
   ],
   imports: [
     FlexLayoutModule,

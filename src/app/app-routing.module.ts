@@ -12,6 +12,12 @@ import { AboutusComponent } from './aboutus/aboutus.component';
 import { NewsletterComponent } from './newsletter/newsletter.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { ShopComponent } from './shop/shop.component';
+import { DiseaseComponent } from './problems/disease/disease.component';
+import { EndangeredComponent } from './problems/endangered/endangered.component';
+import { HotComponent } from './problems/hot/hot.component';
+import { NeglectComponent } from './problems/neglect/neglect.component';
+import { PopulationsComponent } from './problems/populations/populations.component';
+import { RelocationComponent } from './problems/relocation/relocation.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -23,7 +29,13 @@ const routes: Routes = [
   {path: 'about-us', component: AboutusComponent},
   {path: 'newsletter', component: NewsletterComponent},
   {path: 'contact', component: ContactUsComponent},
-  {path: 'shop', component: ShopComponent}
+  {path: 'shop', component: ShopComponent},
+  {path: 'disease', component: DiseaseComponent},
+  {path: 'endangered', component: EndangeredComponent},
+  {path: 'hot', component: HotComponent},
+  {path: 'neglect', component: NeglectComponent},
+  {path: 'populations', component: PopulationsComponent},
+  {path: 'relocation', component: RelocationComponent}
 ];
 
 @NgModule({

@@ -21,7 +21,7 @@ export class ProblemsComponent implements OnInit {
 
    data2 = [
     {header: "THERMAL ISSUES", subhead: "Turtles can overheat when raced across hot pavement or when left in the sun", image: "./../../../assets/svg/hot-turtle.png", width: "55%"},
-    {header: "OVERCOLLECTION", subhead: "Turtle populations quickly hit the tipping point toward decline when overcollected", image: "./../../../assets/svg/recession.png", width: "45%"},
+    {header: "SPECIES DECLINES", subhead: "Turtle populations quickly hit the tipping point toward decline when overcollected", image: "./../../../assets/svg/recession.png", width: "45%"},
     {header: "ENDANGERED SPECIES", subhead: "Turtle races have been caught repeatedly using endangered and protected turtle species", image: "./../../../assets/svg/endangered.png", width: "50%"}
    ]
 
