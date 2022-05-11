@@ -25,12 +25,12 @@ export class AboutusComponent implements OnInit {
   ]
 
   supporters: any[] = [
-    {photoUrl: "./../../assets/supporters/kirkpatrick.jpg", webUrl: "https://kirkpatrickfoundation.com/", size: "100%"},
-    {photoUrl: "./../../assets/supporters/vista_dios.jpg", webUrl: "https://vistadiosfoundation.org/", size: "100%"},
-    {photoUrl: "./../../assets/supporters/summerlee.jpg", webUrl: "https://summerlee.org/", size: "100%"},
-    {photoUrl: "./../../assets/supporters/parks.jpg", webUrl: "https://www.parksfoundation.org/", size: "100%"},
-    {photoUrl: "./../../assets/supporters/shumaker.jpg", webUrl: "https://shumakerfamilyfoundation.org/", size: "100%"},
-    {photoUrl: "./../../assets/supporters/dutton.jpg", webUrl: "http://www.jameseduttonfoundation.org/", size: "100%"},
+    {photoUrl: "./../../assets/supporters/kirkpatrick.jpg", webUrl: "https://kirkpatrickfoundation.com/", size: 1},
+    {photoUrl: "./../../assets/supporters/vista_dios.jpg", webUrl: "https://vistadiosfoundation.org/", size: 1},
+    {photoUrl: "./../../assets/supporters/summerlee.jpg", webUrl: "https://summerlee.org/", size: 1},
+    {photoUrl: "./../../assets/supporters/parks.jpg", webUrl: "https://www.parksfoundation.org/", size: 1},
+    {photoUrl: "./../../assets/supporters/shumaker.jpg", webUrl: "https://shumakerfamilyfoundation.org/", size: 1},
+    {photoUrl: "./../../assets/supporters/dutton.jpg", webUrl: "http://www.jameseduttonfoundation.org/", size: 0.75},
 
   ]
 

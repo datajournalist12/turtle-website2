@@ -40,8 +40,8 @@ generous grant makers</p>
 <div fxLayout="row wrap" fxLayoutAlign="space-evenly">
     <div *ngFor="let supporter of supporters">
         <a href="{{supporter.webUrl}}">
-        <img fxShow.gt-xs="false" src="{{supporter.photoUrl}}" style="margin-left: 35px; margin-right: 35px; margin-top: 35px; display: block; width: 80vw;">
-        <img fxShow.lt-sm="false" src="{{supporter.photoUrl}}" style="margin-left: 35px; margin-right: 35px; margin-top: 35px; display: block; width: 20vw;">
+        <img fxShow.gt-xs="false" src="{{supporter.photoUrl}}" style="margin-left: 35px; margin-right: 35px; margin-top: 35px; display: block; width: {{supporter.size*80 + 'vw'}};">
+        <img fxShow.lt-sm="false" src="{{supporter.photoUrl}}" style="margin-left: 35px; margin-right: 35px; margin-top: 35px; display: block; width: {{supporter.size*20 + 'vw'}};">
         </a>
     </div>
 </div>
