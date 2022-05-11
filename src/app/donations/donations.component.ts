@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { trigger, state, style, animate, transition } from '@angular/animations';
+import { HttpService } from '../services/http.service';
 
 @Component({
   selector: 'app-donations',
@@ -31,18 +32,19 @@ import { trigger, state, style, animate, transition } from '@angular/animations'
 })
 export class DonationsComponent implements OnInit {
 
-  totalGoal: number = 60000
+  totalGoal: number = 50000
   raisedGoal: number = 10000
-  progressPercentage: string = ((this.raisedGoal/this.totalGoal)*100).toPrecision(3);
+  progressPercentage: string = "0";
   timeHit1: boolean = true;
   timeHit2: boolean = true;
 
-  constructor() { }
+  constructor(private _http: HttpService) { }
 
-  ngOnInit(): void {
+  async ngOnInit() {
     const timer1 = setTimeout(() => this.timeHit1 = false, 3999);
     const timer2 = setTimeout(() => this.timeHit2 = false, 5000);
-
+    await this._http.getData().then(x => {console.log(x), this.raisedGoal = this.raisedGoal + parseFloat(x.toString())})
+    this.progressPercentage = ((this.raisedGoal/this.totalGoal)*100).toPrecision(3);
   }
 
 }
