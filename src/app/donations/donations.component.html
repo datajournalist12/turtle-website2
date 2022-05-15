@@ -1,3 +1,5 @@
+<!-- desktop -->
+
 <div *ngIf="showBar" (click)="turnOffDonate()" fxShow.gt-sm="true" fxLayout="row" class="wrapper">
     <mat-icon style="margin-left: 10vw;
     cursor: pointer;
@@ -14,6 +16,8 @@
     </div>
 </div>
 
+<!-- mobile -->
+
 <div *ngIf="showBar" (click)="turnOffDonate()" fxShow.gt-sm="false" fxLayout="row" class="wrapper">
     <mat-icon style="margin-left: 8vw;
     cursor: pointer;
@@ -21,12 +25,12 @@
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%) scale(1.7);">close</mat-icon>
-    <div *ngIf="timeHit1" [@inOutAnimation] class="progress-bg">
+    <div *ngIf="timeHit3" [@inOutAnimation] class="progress-bg">
     	<div class="progress-bar" style="--raised-amount: {{progressPercentage}}%;">
-        	<h3 style="font-size: 20px !important;" class="raised">{{progressPercentage}}%&nbsp;raised! </h3>
+        	<h3 *ngIf="timeHit1" [@inOutAnimation] style="font-size: 20px !important;" class="raised">{{progressPercentage}}%&nbsp;raised! </h3>
         </div>
+        <h3 *ngIf="timeHit2 === false && timeHit3 === true" [@inOutAnimation] class="goal" style="color: white; font-size: 20px !important; float: left !important; margin-left: 6px;">$50,000 Goal</h3>
     </div>
-    <button routerLink="/shop" *ngIf="!timeHit2" [@inOutAnimation] class="appeal" mat-raised-button color="accent">Donate Now</button>
+    <button routerLink="/shop" *ngIf="!timeHit4" [@inOutAnimation] class="appeal" mat-raised-button color="accent">Donate Now</button>
 </div>
-
  
