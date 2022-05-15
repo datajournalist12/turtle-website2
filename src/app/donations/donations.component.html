@@ -1,4 +1,10 @@
-<div fxShow.gt-sm="true" class="wrapper">
+<div *ngIf="showBar" (click)="turnOffDonate()" fxShow.gt-sm="true" fxLayout="row" class="wrapper">
+    <mat-icon style="margin-left: 10vw;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%) scale(1.7);">close</mat-icon>
     <div class="progress-bg">
     	<div class="progress-bar" style="--raised-amount: {{progressPercentage}}%;">
         	<h3 class="raised">{{progressPercentage}}%&nbsp;raised </h3>
@@ -8,7 +14,13 @@
     </div>
 </div>
 
-<div fxShow.gt-sm="false" class="wrapper">
+<div *ngIf="showBar" (click)="turnOffDonate()" fxShow.gt-sm="false" fxLayout="row" class="wrapper">
+    <mat-icon style="margin-left: 8vw;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%) scale(1.7);">close</mat-icon>
     <div *ngIf="timeHit1" [@inOutAnimation] class="progress-bg">
     	<div class="progress-bar" style="--raised-amount: {{progressPercentage}}%;">
         	<h3 style="font-size: 20px !important;" class="raised">{{progressPercentage}}%&nbsp;raised! </h3>

@@ -3,6 +3,7 @@ import { MediaObserver, MediaChange } from '@angular/flex-layout';
 import { Observable } from 'rxjs';
 import { MatDialog } from '@angular/material/dialog';
 import { ModalComponent } from './modal/modal.component';
+import { MessageService } from './services/messenger.service';
 
 @Component({
   selector: 'app-root',
@@ -12,13 +13,16 @@ import { ModalComponent } from './modal/modal.component';
 export class AppComponent implements OnInit, AfterViewInit, OnDestroy {
   media$: Observable<MediaChange[]>;
 
-  constructor(media: MediaObserver) {
+  constructor(media: MediaObserver,
+              private messageService: MessageService) {
     this.media$ = media.asObservable();
   }
 
   title = 'alexapp';
+  showBar: boolean = true;
 
   ngOnInit() {
+    this.messageService.onMessage().subscribe(() => { this.showBar = false })
   }
 
   ngAfterViewInit() {

@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { trigger, state, style, animate, transition } from '@angular/animations';
 import { HttpService } from '../services/http.service';
+import { MessageService } from '../services/messenger.service';
 
 @Component({
   selector: 'app-donations',
@@ -37,14 +38,21 @@ export class DonationsComponent implements OnInit {
   progressPercentage: string = "0";
   timeHit1: boolean = true;
   timeHit2: boolean = true;
+  showBar: boolean = true;
 
-  constructor(private _http: HttpService) { }
+  constructor(private _http: HttpService,
+              private messageService: MessageService) { }
 
   async ngOnInit() {
     const timer1 = setTimeout(() => this.timeHit1 = false, 3999);
     const timer2 = setTimeout(() => this.timeHit2 = false, 5000);
     await this._http.getData().then(x => {console.log(x), this.raisedGoal = this.raisedGoal + parseFloat(x.toString())})
     this.progressPercentage = ((this.raisedGoal/this.totalGoal)*100).toPrecision(3);
+  }
+
+  turnOffDonate() {
+    this.showBar = false;
+    this.messageService.sendMessage("Shut Off")
   }
 
 }
