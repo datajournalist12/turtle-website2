@@ -6,34 +6,6 @@ import { trigger, state, style, animate, transition } from '@angular/animations'
   selector: 'app-shop',
   templateUrl: './shop.component.html',
   styleUrls: ['./shop.component.css'],
-  animations: [
-    trigger(
-      'inAnimation', 
-      [
-        transition(
-          ':enter', 
-          [
-            style({ height:100, opacity: 0 }),
-            animate('1s fade-out', 
-                    style({ height: 100, opacity: 1 }))
-          ]
-        )
-      ]
-    ),
-    trigger(
-      'outAnimation', 
-      [
-        transition(
-          ':leave', 
-          [
-            style({ opacity: 1 }),
-            animate('1s fade', 
-                    style({ opacity: 0 }))
-          ]
-        )
-      ]
-    )
-  ]
 })
 
 export class ShopComponent implements OnInit {

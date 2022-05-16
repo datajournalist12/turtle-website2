@@ -1,7 +1,7 @@
 <p style="text-align:center; font-size: 20px; padding: 25px;">The Turtle Race Task Force/Turtle Conservation Group
         depends on small donors for mission success</p>
 
-<div *ngIf="showMain" [@outAnimation] fxLayout.gt-sm="row" fxLayout.lt-md="column" fxLayoutAlign="center">
+<div *ngIf="showMain" fxLayout.gt-sm="row" fxLayout.lt-md="column" fxLayoutAlign="center">
         <div fxLayout="column">
                 <div class="donation-text" style="text-align: center; font-size: 35px;">Make a Donation</div>
                 <p style="text-align: center; font-size: 16px;">Spring Fundraiser in Progress!</p>
@@ -41,7 +41,7 @@
         </div>
 </div>
 
-<div *ngIf="!showMain" [@inAnimation]>
+<div *ngIf="!showMain">
         <p style="text-align: center; font-size: 20px;">Pick a Hat Color</p>
         <div (click)="getColor('green')" class="color" style="background-color: #31ad21;">Green</div>
         <div (click)="getColor('red')" class="color" style="background-color: #c61818;">Red</div>
