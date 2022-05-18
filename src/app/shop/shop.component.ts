@@ -12,16 +12,15 @@ export class ShopComponent implements OnInit {
 
   showMain: boolean = true;
   showColor: boolean = false;
-  amountMoney: keyof Shop = "60";
+  amountMoney: keyof Shop = "35";
 
   constructor() { }
 
   hatColors: Array<Shop> = 
   [{
-    "60": {pink: "https://buy.stripe.com/cN23cL1If4Bv9O07sF", blue: "https://buy.stripe.com/8wM7t14Ur7NH5xK5kA", green: "https://buy.stripe.com/14k00zbiP5Fz1hueVe", orange: "https://buy.stripe.com/8wM3cLdqX4Bv5xK14v", red: "https://buy.stripe.com/eVa3cLcmTc3X9O0aF9", none: "https://buy.stripe.com/9AQ8x5aeL1pj6BO00C"},
     "100": {pink: "https://buy.stripe.com/bIY9B9aeLaZTe4g6oA", blue: "https://buy.stripe.com/28ofZx1Ifgkd4tGbIZ", green: "https://buy.stripe.com/fZe3cL9aH7NHgcofZj", orange: "https://buy.stripe.com/3csdRp2Mj5Fz4tG5kK", red: "https://buy.stripe.com/dR66oX86D3xr2lyfZs", none: "https://buy.stripe.com/9AQ14DgD99VPe4gaFf"},
-    "200": {pink: "https://buy.stripe.com/fZe14DcmT4Bvd0c7sG", blue: "https://buy.stripe.com/3cs6oXaeL9VP8JW3cu", green: "https://buy.stripe.com/28o3cLbiPaZTgcodRc", orange: "https://buy.stripe.com/cN24gP72z1pjbW88wV", red: "https://buy.stripe.com/28o28H3Qnec55xKfZr", none: "https://buy.stripe.com/dR6fZx72z2tn2lyfZy"},
-    "500": {pink: "https://buy.stripe.com/bIY9B9cmT4Bv9O014j", blue: "https://buy.stripe.com/7sI5kT3QnaZT9O09AT", green: "https://buy.stripe.com/9AQ28HcmT6JDbW89AX", orange: "https://buy.stripe.com/7sIfZx72z1pj0dq9AY", red: "https://buy.stripe.com/aEUeVtaeL9VP7FS28A", none: "https://buy.stripe.com/fZe7t1gD9d818JW4gP"} 
+    "50": {pink: "https://buy.stripe.com/9AQ28H72z3xr3pC7tf", blue: "https://buy.stripe.com/00gaFdfz54Bv4tGdRB", green: "https://buy.stripe.com/28oeVtdqX0lfbW8aFn", orange: "", red: "https://buy.stripe.com/5kA5kTev1c3X4tGeVB", none: "https://buy.stripe.com/14kbJh0Eb5Fz5xKfZB"},
+    "35": {pink: "https://buy.stripe.com/eVa5kTgD99VP2lybJw", blue: "https://buy.stripe.com/bIY14D9aHec54tG8xi", green: "https://buy.stripe.com/bIY4gP0Eb4Bvd0cdRA", orange: "", red: "https://buy.stripe.com/aEUfZx86D2tnbW800I", none: "https://buy.stripe.com/4gw9B986Dgkd0dqaFi"} 
   }]
 
   ngOnInit(): void {

@@ -1,8 +1,7 @@
 export interface Shop {
-    "60": SubOptions;
     "100": SubOptions;
-    "200": SubOptions;
-    "500": SubOptions;
+    "50": SubOptions;
+    "35": SubOptions;
 }
 
 export interface SubOptions {
