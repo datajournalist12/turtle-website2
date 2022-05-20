@@ -11,7 +11,7 @@
     	<div class="progress-bar" style="--raised-amount: {{progressPercentage}}%;">
         	<h3 class="raised">{{progressPercentage}}%&nbsp;raised </h3>
         </div>
-            <button routerLink="/shop" *ngIf="!timeHit2" [@inOutAnimation] class="appeal" mat-raised-button color="accent">Donate Now</button>	
+            <button routerLink="/shop" *ngIf="!timeHit2" [@inOutAnimation] class="appeal" mat-raised-button color="accent">Donate - Free Hat Included!</button>	
         	<h3 *ngIf="timeHit1" [@inOutAnimation] class="goal" style="color: white;">Goal: $50,000</h3>
     </div>
 </div>
@@ -31,6 +31,6 @@
         </div>
         <h3 *ngIf="timeHit2 === false && timeHit3 === true" [@inOutAnimation] class="goal" style="color: white; font-size: 20px !important; float: left !important; margin-left: 6px;">$50,000 Goal</h3>
     </div>
-    <button routerLink="/shop" *ngIf="!timeHit4" [@inOutAnimation] class="appeal" mat-raised-button color="accent">Donate Now</button>
+    <button routerLink="/shop" *ngIf="!timeHit4" [@inOutAnimation] class="appeal" mat-raised-button color="accent">Donate - Free Hat Included!</button>
 </div>
  
